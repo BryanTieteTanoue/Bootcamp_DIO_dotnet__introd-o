@@ -1,0 +1,31 @@
+#C#
+	-criador Anders Hjeberg
+
+#Visual Studio
+	-é um pack com várias linguagens
+	-pode rodar várias linguagens em um run-time (CLR)
+	-converte as linguagens em uma só 
+	-evoului bastante, era exclusivo do windoes, ganhou versão MAC
+
+#.NET
+	-fortemente ligado a microsoft e C#
+	-Lançado em 2000
+	-Tonha o framework e o core, mas a microsoft decidiu juntar
+e lançar o .NET 5
+
+#.NET o que é, como e onde usar
+	-é uma IDE criada pela microsoft
+	-é desenvolvida e roda em .NET core, .NET Framework e Mono
+	-isso é possível com uma biblioteca em comum (STAMDARD LIBRARY), garante as mesmas funcionalidades
+	-Cada um com um Run-time:
+		-.NET Cora: coreCLR
+		-.Net Framework: CLR
+		-Mono: Monoruntime
+	-Usa 3 linguagens: C# (principal), F# e VB (essa é mais para estudo)
+	-A microsoft quer estar em todos os lugares, cloud, web, desktop, Iot, AI...
+	-Várias empresas usam, stackoverflowe e microsoft são exemplos
+	-o visual studio (não code) foi feito pensando em .net, assim ele possui uma interface voltada para isso
+
+#Dicas
+	-no cmd e na psta onde está o .net: "dotnet new console -n nome" cria uma apliação de console
+	-"dotnet restore" verifica os pacotes ligados ao projeto e baixa eles
