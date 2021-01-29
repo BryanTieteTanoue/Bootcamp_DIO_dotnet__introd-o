@@ -29,3 +29,34 @@ e lançar o .NET 5
 #Dicas
 	-no cmd e na psta onde está o .net: "dotnet new console -n nome" cria uma apliação de console
 	-"dotnet restore" verifica os pacotes ligados ao projeto e baixa eles
+
+#Conceitos orgacionais em C#
+	-programas: arquvis de extensão .cs, declaram tipos
+	-namespaces
+	-tipos: classes, interfaces
+	-menbros: campos, métodos, propriedades, eventos
+	-assembles: o código compilado
+
+#Structs
+	-São parecidas com as classes, mas ao invés de serem por referância
+elas são por valor
+	-Não preceisam de alocação de heap
+	-Não aceitam herança feitas pelo desenvolvedor, melhor ser usada em coisas
+menores, sistema de cordenadas por exemplo
+	-Ideal para usar menos memória
+	-cria igual a classe, mas ao invés de "public class exem" fica "public struct exem"
+
+#Interfaces
+	-São "contratos", tanto classes e structs podem implementar
+	-pode ter propriedades, métodos...
+	-ela não tem implementações, apenas assinaturas
+	-permitem herança múltipla
+
+#Enums
+	-é um tipo de valor distinto com um conjunto de cosntantes nomeados
+	-exemplo: status de uma nota fiscal(emitido, cancelado, fianlizado) cada
+um com um valor:1,2,3. Podemos usar os núemros, mas o melhor é dar um significado
+para cada número. 1 = emitido, 2 = cancelado...
+	-pode definir outros valores para representar os estados, como char, byte...
+por padrão é int
+	
